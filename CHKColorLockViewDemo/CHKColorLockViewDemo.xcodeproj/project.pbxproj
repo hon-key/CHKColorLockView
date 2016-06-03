@@ -1,0 +1,576 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9AEFD3881D014F8D0044A7C4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AEFD3871D014F8D0044A7C4 /* main.m */; };
+		9AEFD38B1D014F8D0044A7C4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AEFD38A1D014F8D0044A7C4 /* AppDelegate.m */; };
+		9AEFD38E1D014F8D0044A7C4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AEFD38D1D014F8D0044A7C4 /* ViewController.m */; };
+		9AEFD3911D014F8D0044A7C4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AEFD38F1D014F8D0044A7C4 /* Main.storyboard */; };
+		9AEFD3931D014F8D0044A7C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9AEFD3921D014F8D0044A7C4 /* Assets.xcassets */; };
+		9AEFD3961D014F8D0044A7C4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AEFD3941D014F8D0044A7C4 /* LaunchScreen.storyboard */; };
+		9AEFD3A11D014F8D0044A7C4 /* CHKColorLockViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AEFD3A01D014F8D0044A7C4 /* CHKColorLockViewDemoTests.m */; };
+		9AEFD3AC1D014F8D0044A7C4 /* CHKColorLockViewDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AEFD3AB1D014F8D0044A7C4 /* CHKColorLockViewDemoUITests.m */; };
+		9AEFD3C81D014FE10044A7C4 /* CHKButtonView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AEFD3BB1D014FE10044A7C4 /* CHKButtonView.m */; };
+		9AEFD3C91D014FE10044A7C4 /* CHKCircularLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AEFD3BD1D014FE10044A7C4 /* CHKCircularLayer.m */; };
+		9AEFD3CA1D014FE10044A7C4 /* CHKColorLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AEFD3BF1D014FE10044A7C4 /* CHKColorLayer.m */; };
+		9AEFD3CB1D014FE10044A7C4 /* CHKColorLockView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AEFD3C11D014FE10044A7C4 /* CHKColorLockView.m */; };
+		9AEFD3CC1D014FE10044A7C4 /* CHKColorPasswordManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AEFD3C31D014FE10044A7C4 /* CHKColorPasswordManager.m */; };
+		9AEFD3CD1D014FE10044A7C4 /* CHKOutputLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AEFD3C51D014FE10044A7C4 /* CHKOutputLayer.m */; };
+		9AEFD3CE1D014FE10044A7C4 /* CHKPointerLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AEFD3C71D014FE10044A7C4 /* CHKPointerLayer.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9AEFD39D1D014F8D0044A7C4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9AEFD37B1D014F8D0044A7C4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9AEFD3821D014F8D0044A7C4;
+			remoteInfo = CHKColorLockViewDemo;
+		};
+		9AEFD3A81D014F8D0044A7C4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9AEFD37B1D014F8D0044A7C4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9AEFD3821D014F8D0044A7C4;
+			remoteInfo = CHKColorLockViewDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9AEFD3831D014F8D0044A7C4 /* CHKColorLockViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CHKColorLockViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AEFD3871D014F8D0044A7C4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9AEFD3891D014F8D0044A7C4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9AEFD38A1D014F8D0044A7C4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9AEFD38C1D014F8D0044A7C4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9AEFD38D1D014F8D0044A7C4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9AEFD3901D014F8D0044A7C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9AEFD3921D014F8D0044A7C4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9AEFD3951D014F8D0044A7C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9AEFD3971D014F8D0044A7C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9AEFD39C1D014F8D0044A7C4 /* CHKColorLockViewDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CHKColorLockViewDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AEFD3A01D014F8D0044A7C4 /* CHKColorLockViewDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CHKColorLockViewDemoTests.m; sourceTree = "<group>"; };
+		9AEFD3A21D014F8D0044A7C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9AEFD3A71D014F8D0044A7C4 /* CHKColorLockViewDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CHKColorLockViewDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AEFD3AB1D014F8D0044A7C4 /* CHKColorLockViewDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CHKColorLockViewDemoUITests.m; sourceTree = "<group>"; };
+		9AEFD3AD1D014F8D0044A7C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9AEFD3BA1D014FE10044A7C4 /* CHKButtonView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHKButtonView.h; sourceTree = "<group>"; };
+		9AEFD3BB1D014FE10044A7C4 /* CHKButtonView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHKButtonView.m; sourceTree = "<group>"; };
+		9AEFD3BC1D014FE10044A7C4 /* CHKCircularLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHKCircularLayer.h; sourceTree = "<group>"; };
+		9AEFD3BD1D014FE10044A7C4 /* CHKCircularLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHKCircularLayer.m; sourceTree = "<group>"; };
+		9AEFD3BE1D014FE10044A7C4 /* CHKColorLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHKColorLayer.h; sourceTree = "<group>"; };
+		9AEFD3BF1D014FE10044A7C4 /* CHKColorLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHKColorLayer.m; sourceTree = "<group>"; };
+		9AEFD3C01D014FE10044A7C4 /* CHKColorLockView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHKColorLockView.h; sourceTree = "<group>"; };
+		9AEFD3C11D014FE10044A7C4 /* CHKColorLockView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHKColorLockView.m; sourceTree = "<group>"; };
+		9AEFD3C21D014FE10044A7C4 /* CHKColorPasswordManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHKColorPasswordManager.h; sourceTree = "<group>"; };
+		9AEFD3C31D014FE10044A7C4 /* CHKColorPasswordManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHKColorPasswordManager.m; sourceTree = "<group>"; };
+		9AEFD3C41D014FE10044A7C4 /* CHKOutputLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHKOutputLayer.h; sourceTree = "<group>"; };
+		9AEFD3C51D014FE10044A7C4 /* CHKOutputLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHKOutputLayer.m; sourceTree = "<group>"; };
+		9AEFD3C61D014FE10044A7C4 /* CHKPointerLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHKPointerLayer.h; sourceTree = "<group>"; };
+		9AEFD3C71D014FE10044A7C4 /* CHKPointerLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHKPointerLayer.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9AEFD3801D014F8D0044A7C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AEFD3991D014F8D0044A7C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AEFD3A41D014F8D0044A7C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9AEFD37A1D014F8D0044A7C4 = {
+			isa = PBXGroup;
+			children = (
+				9AEFD3851D014F8D0044A7C4 /* CHKColorLockViewDemo */,
+				9AEFD39F1D014F8D0044A7C4 /* CHKColorLockViewDemoTests */,
+				9AEFD3AA1D014F8D0044A7C4 /* CHKColorLockViewDemoUITests */,
+				9AEFD3841D014F8D0044A7C4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9AEFD3841D014F8D0044A7C4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9AEFD3831D014F8D0044A7C4 /* CHKColorLockViewDemo.app */,
+				9AEFD39C1D014F8D0044A7C4 /* CHKColorLockViewDemoTests.xctest */,
+				9AEFD3A71D014F8D0044A7C4 /* CHKColorLockViewDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9AEFD3851D014F8D0044A7C4 /* CHKColorLockViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				9AEFD3B91D014FE10044A7C4 /* CHKColorLockView */,
+				9AEFD3891D014F8D0044A7C4 /* AppDelegate.h */,
+				9AEFD38A1D014F8D0044A7C4 /* AppDelegate.m */,
+				9AEFD38C1D014F8D0044A7C4 /* ViewController.h */,
+				9AEFD38D1D014F8D0044A7C4 /* ViewController.m */,
+				9AEFD38F1D014F8D0044A7C4 /* Main.storyboard */,
+				9AEFD3921D014F8D0044A7C4 /* Assets.xcassets */,
+				9AEFD3941D014F8D0044A7C4 /* LaunchScreen.storyboard */,
+				9AEFD3971D014F8D0044A7C4 /* Info.plist */,
+				9AEFD3861D014F8D0044A7C4 /* Supporting Files */,
+			);
+			path = CHKColorLockViewDemo;
+			sourceTree = "<group>";
+		};
+		9AEFD3861D014F8D0044A7C4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9AEFD3871D014F8D0044A7C4 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9AEFD39F1D014F8D0044A7C4 /* CHKColorLockViewDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				9AEFD3A01D014F8D0044A7C4 /* CHKColorLockViewDemoTests.m */,
+				9AEFD3A21D014F8D0044A7C4 /* Info.plist */,
+			);
+			path = CHKColorLockViewDemoTests;
+			sourceTree = "<group>";
+		};
+		9AEFD3AA1D014F8D0044A7C4 /* CHKColorLockViewDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9AEFD3AB1D014F8D0044A7C4 /* CHKColorLockViewDemoUITests.m */,
+				9AEFD3AD1D014F8D0044A7C4 /* Info.plist */,
+			);
+			path = CHKColorLockViewDemoUITests;
+			sourceTree = "<group>";
+		};
+		9AEFD3B91D014FE10044A7C4 /* CHKColorLockView */ = {
+			isa = PBXGroup;
+			children = (
+				9AEFD3BA1D014FE10044A7C4 /* CHKButtonView.h */,
+				9AEFD3BB1D014FE10044A7C4 /* CHKButtonView.m */,
+				9AEFD3BC1D014FE10044A7C4 /* CHKCircularLayer.h */,
+				9AEFD3BD1D014FE10044A7C4 /* CHKCircularLayer.m */,
+				9AEFD3BE1D014FE10044A7C4 /* CHKColorLayer.h */,
+				9AEFD3BF1D014FE10044A7C4 /* CHKColorLayer.m */,
+				9AEFD3C01D014FE10044A7C4 /* CHKColorLockView.h */,
+				9AEFD3C11D014FE10044A7C4 /* CHKColorLockView.m */,
+				9AEFD3C21D014FE10044A7C4 /* CHKColorPasswordManager.h */,
+				9AEFD3C31D014FE10044A7C4 /* CHKColorPasswordManager.m */,
+				9AEFD3C41D014FE10044A7C4 /* CHKOutputLayer.h */,
+				9AEFD3C51D014FE10044A7C4 /* CHKOutputLayer.m */,
+				9AEFD3C61D014FE10044A7C4 /* CHKPointerLayer.h */,
+				9AEFD3C71D014FE10044A7C4 /* CHKPointerLayer.m */,
+			);
+			path = CHKColorLockView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9AEFD3821D014F8D0044A7C4 /* CHKColorLockViewDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9AEFD3B01D014F8D0044A7C4 /* Build configuration list for PBXNativeTarget "CHKColorLockViewDemo" */;
+			buildPhases = (
+				9AEFD37F1D014F8D0044A7C4 /* Sources */,
+				9AEFD3801D014F8D0044A7C4 /* Frameworks */,
+				9AEFD3811D014F8D0044A7C4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CHKColorLockViewDemo;
+			productName = CHKColorLockViewDemo;
+			productReference = 9AEFD3831D014F8D0044A7C4 /* CHKColorLockViewDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9AEFD39B1D014F8D0044A7C4 /* CHKColorLockViewDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9AEFD3B31D014F8D0044A7C4 /* Build configuration list for PBXNativeTarget "CHKColorLockViewDemoTests" */;
+			buildPhases = (
+				9AEFD3981D014F8D0044A7C4 /* Sources */,
+				9AEFD3991D014F8D0044A7C4 /* Frameworks */,
+				9AEFD39A1D014F8D0044A7C4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9AEFD39E1D014F8D0044A7C4 /* PBXTargetDependency */,
+			);
+			name = CHKColorLockViewDemoTests;
+			productName = CHKColorLockViewDemoTests;
+			productReference = 9AEFD39C1D014F8D0044A7C4 /* CHKColorLockViewDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9AEFD3A61D014F8D0044A7C4 /* CHKColorLockViewDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9AEFD3B61D014F8D0044A7C4 /* Build configuration list for PBXNativeTarget "CHKColorLockViewDemoUITests" */;
+			buildPhases = (
+				9AEFD3A31D014F8D0044A7C4 /* Sources */,
+				9AEFD3A41D014F8D0044A7C4 /* Frameworks */,
+				9AEFD3A51D014F8D0044A7C4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9AEFD3A91D014F8D0044A7C4 /* PBXTargetDependency */,
+			);
+			name = CHKColorLockViewDemoUITests;
+			productName = CHKColorLockViewDemoUITests;
+			productReference = 9AEFD3A71D014F8D0044A7C4 /* CHKColorLockViewDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9AEFD37B1D014F8D0044A7C4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "蔡弘基";
+				TargetAttributes = {
+					9AEFD3821D014F8D0044A7C4 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = P9X5A984BK;
+					};
+					9AEFD39B1D014F8D0044A7C4 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 9AEFD3821D014F8D0044A7C4;
+					};
+					9AEFD3A61D014F8D0044A7C4 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 9AEFD3821D014F8D0044A7C4;
+					};
+				};
+			};
+			buildConfigurationList = 9AEFD37E1D014F8D0044A7C4 /* Build configuration list for PBXProject "CHKColorLockViewDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9AEFD37A1D014F8D0044A7C4;
+			productRefGroup = 9AEFD3841D014F8D0044A7C4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9AEFD3821D014F8D0044A7C4 /* CHKColorLockViewDemo */,
+				9AEFD39B1D014F8D0044A7C4 /* CHKColorLockViewDemoTests */,
+				9AEFD3A61D014F8D0044A7C4 /* CHKColorLockViewDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9AEFD3811D014F8D0044A7C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AEFD3961D014F8D0044A7C4 /* LaunchScreen.storyboard in Resources */,
+				9AEFD3931D014F8D0044A7C4 /* Assets.xcassets in Resources */,
+				9AEFD3911D014F8D0044A7C4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AEFD39A1D014F8D0044A7C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AEFD3A51D014F8D0044A7C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9AEFD37F1D014F8D0044A7C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AEFD3CE1D014FE10044A7C4 /* CHKPointerLayer.m in Sources */,
+				9AEFD38E1D014F8D0044A7C4 /* ViewController.m in Sources */,
+				9AEFD3CD1D014FE10044A7C4 /* CHKOutputLayer.m in Sources */,
+				9AEFD38B1D014F8D0044A7C4 /* AppDelegate.m in Sources */,
+				9AEFD3881D014F8D0044A7C4 /* main.m in Sources */,
+				9AEFD3C91D014FE10044A7C4 /* CHKCircularLayer.m in Sources */,
+				9AEFD3CA1D014FE10044A7C4 /* CHKColorLayer.m in Sources */,
+				9AEFD3C81D014FE10044A7C4 /* CHKButtonView.m in Sources */,
+				9AEFD3CB1D014FE10044A7C4 /* CHKColorLockView.m in Sources */,
+				9AEFD3CC1D014FE10044A7C4 /* CHKColorPasswordManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AEFD3981D014F8D0044A7C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AEFD3A11D014F8D0044A7C4 /* CHKColorLockViewDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AEFD3A31D014F8D0044A7C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AEFD3AC1D014F8D0044A7C4 /* CHKColorLockViewDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9AEFD39E1D014F8D0044A7C4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9AEFD3821D014F8D0044A7C4 /* CHKColorLockViewDemo */;
+			targetProxy = 9AEFD39D1D014F8D0044A7C4 /* PBXContainerItemProxy */;
+		};
+		9AEFD3A91D014F8D0044A7C4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9AEFD3821D014F8D0044A7C4 /* CHKColorLockViewDemo */;
+			targetProxy = 9AEFD3A81D014F8D0044A7C4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9AEFD38F1D014F8D0044A7C4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9AEFD3901D014F8D0044A7C4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9AEFD3941D014F8D0044A7C4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9AEFD3951D014F8D0044A7C4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9AEFD3AE1D014F8D0044A7C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9AEFD3AF1D014F8D0044A7C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9AEFD3B11D014F8D0044A7C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = CHKColorLockViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.CAI.ios.CHKColorLockViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		9AEFD3B21D014F8D0044A7C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = CHKColorLockViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.CAI.ios.CHKColorLockViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		9AEFD3B41D014F8D0044A7C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CHKColorLockViewDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.CAI.ios.CHKColorLockViewDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CHKColorLockViewDemo.app/CHKColorLockViewDemo";
+			};
+			name = Debug;
+		};
+		9AEFD3B51D014F8D0044A7C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CHKColorLockViewDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.CAI.ios.CHKColorLockViewDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CHKColorLockViewDemo.app/CHKColorLockViewDemo";
+			};
+			name = Release;
+		};
+		9AEFD3B71D014F8D0044A7C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CHKColorLockViewDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.CAI.ios.CHKColorLockViewDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CHKColorLockViewDemo;
+			};
+			name = Debug;
+		};
+		9AEFD3B81D014F8D0044A7C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CHKColorLockViewDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.CAI.ios.CHKColorLockViewDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CHKColorLockViewDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9AEFD37E1D014F8D0044A7C4 /* Build configuration list for PBXProject "CHKColorLockViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AEFD3AE1D014F8D0044A7C4 /* Debug */,
+				9AEFD3AF1D014F8D0044A7C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9AEFD3B01D014F8D0044A7C4 /* Build configuration list for PBXNativeTarget "CHKColorLockViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AEFD3B11D014F8D0044A7C4 /* Debug */,
+				9AEFD3B21D014F8D0044A7C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9AEFD3B31D014F8D0044A7C4 /* Build configuration list for PBXNativeTarget "CHKColorLockViewDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AEFD3B41D014F8D0044A7C4 /* Debug */,
+				9AEFD3B51D014F8D0044A7C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9AEFD3B61D014F8D0044A7C4 /* Build configuration list for PBXNativeTarget "CHKColorLockViewDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AEFD3B71D014F8D0044A7C4 /* Debug */,
+				9AEFD3B81D014F8D0044A7C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9AEFD37B1D014F8D0044A7C4 /* Project object */;
+}
