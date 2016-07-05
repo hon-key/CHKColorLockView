@@ -43,5 +43,21 @@
     [con addAction:[UIAlertAction actionWithTitle:@"确定" style:UIAlertActionStyleCancel handler:nil]];
     [self presentViewController:con animated:YES completion:nil];
 }
+-(void)CHKColorLockView:(CHKColorLockView *)colorLockView didPickAColor:(UIColor *)color {
+    NSLog(@"%@",color);
+    const CGFloat *components = CGColorGetComponents(color.CGColor);
+    for (int i = 0; i < 4; i++) {
+        NSLog(@"%f",components[i]);
+    }
+}
+-(void)CHKColorLockView:(CHKColorLockView *)colorLockView didEndPickColors:(NSArray<UIColor *> *)array {
+    for (UIColor *color in array) {
+        NSLog(@"#####%@",color);
+        const CGFloat *components = CGColorGetComponents(color.CGColor);
+        for (int i = 0; i < 4; i++) {
+            NSLog(@"%f",components[i]);
+        }
+    }
+}
 
 @end

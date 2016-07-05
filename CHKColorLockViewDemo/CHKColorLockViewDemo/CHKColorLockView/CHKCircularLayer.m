@@ -15,6 +15,7 @@
  */
 -(instancetype)init {
     if (self = [super init]) {
+        self.contentsScale = [UIScreen mainScreen].scale;
         _backColor = [UIColor clearColor];
         _distance = 0;
     }

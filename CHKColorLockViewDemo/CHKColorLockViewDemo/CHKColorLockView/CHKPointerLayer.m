@@ -29,6 +29,7 @@
  */
 -(instancetype)init {
     if (self = [super init]) {
+        self.contentsScale = [UIScreen mainScreen].scale;
         _pressure = 0;
         _coordinate = CGPointMake(0, 0);
         _origin = CGPointMake(0, 0);
@@ -42,6 +43,7 @@
 
 -(instancetype)initWithFrame:(CGRect)frame {
     if (self =  [super init]) {
+        self.contentsScale = [UIScreen mainScreen].scale;
         self.frame = frame;
         _pressure = 0;
         _coordinate = CGPointMake(0, frame.size.height);

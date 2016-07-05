@@ -16,6 +16,7 @@
  */
 -(instancetype)init {
     if (self = [super init]) {
+        self.contentsScale = [UIScreen mainScreen].scale;
         _length = 0;
         // default color 
         _blockColor1 = [UIColor redColor];

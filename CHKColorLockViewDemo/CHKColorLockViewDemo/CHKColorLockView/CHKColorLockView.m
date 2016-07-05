@@ -161,7 +161,7 @@
         _buttonView = [[CHKButtonView alloc] initWithFrame:CGRectMake(0, 0, width, height)];
         _buttonView.radiusPaddingWidth = 3;
         _buttonView.origin = CGPointMake(self.unlockBackgroundView.bounds.size.width / 2,self.unlockBackgroundView.bounds.size.height);
-        _buttonView.buttonColor = [UIColor yellowColor];
+        _buttonView.buttonColor = [UIColor greenColor];
         _buttonView.delegate = self;
         [self.unlockBackgroundView addSubview:_buttonView];
     }

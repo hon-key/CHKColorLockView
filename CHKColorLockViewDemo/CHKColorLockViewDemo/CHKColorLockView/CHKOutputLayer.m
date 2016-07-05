@@ -22,6 +22,7 @@
 -(instancetype)init {
     if (self = [super init]) {
         _colorArray = [NSMutableArray new];
+        self.contentsScale = [UIScreen mainScreen].scale;
     }
     
     return self;
@@ -85,9 +86,9 @@
     CGFloat roomWidth = selfWidth / 4;
     CGFloat roomHeight = selfHeight;
     CGFloat x = 0;
-    CGFloat y = roomHeight / 2;
-    CGFloat smallCircleR = roomWidth / 2 * 1/4;
-    CGFloat bigCircleR = roomWidth / 2 * 3/4;
+    CGFloat y = (roomHeight / 2);
+    CGFloat smallCircleR = (roomWidth / 2 * 1/4);
+    CGFloat bigCircleR = (roomWidth / 2 * 3/4);
     
     UIBezierPath *path = [UIBezierPath bezierPath];
     [path moveToPoint:CGPointMake(0, 0)];
@@ -103,17 +104,20 @@
     for (int i = 1; i <= 4; i++) {
         [path removeAllPoints];
         if (_colorArray.count >= i) {
-            x = (i - 1) * roomWidth + roomWidth / 2;
+            x = ((i - 1) * roomWidth + roomWidth / 2);
             [path addArcWithCenter:CGPointMake(x, y) radius:bigCircleR startAngle:0 endAngle:2.0 * M_PI clockwise:YES];
             CGContextAddPath(ctx, path.CGPath);
             UIColor *tempColor = [_colorArray objectAtIndex:i - 1];
             CGContextSetFillColorWithColor(ctx, tempColor.CGColor);
+            CGContextSetStrokeColorWithColor(ctx, tempColor.CGColor);
             CGContextFillPath(ctx);
+            CGContextStrokePath(ctx);
         }else {
-            x = (i - 1) * roomWidth + roomWidth / 2;
+            x = ((i - 1) * roomWidth + roomWidth / 2);
             [path addArcWithCenter:CGPointMake(x, y) radius:smallCircleR startAngle:0 endAngle:2.0 * M_PI clockwise:YES];
-            CGContextAddPath(ctx, path.CGPath);
+            
             CGContextSetFillColorWithColor(ctx, [UIColor blackColor].CGColor);
+            CGContextAddPath(ctx, path.CGPath);
             CGContextFillPath(ctx);
         }
     }
